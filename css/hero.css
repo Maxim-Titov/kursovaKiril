@@ -1,0 +1,74 @@
+#hero {
+    width: 100%;
+}
+
+#hero .container {
+    margin: 0 auto;
+    display: flex;
+    height: 590px;
+    align-items: center;
+}
+
+#hero .container .left-block {
+    flex: 1;
+    padding-right: 100px;
+}
+
+#hero .container .left-block .title {
+    font-size: 59px;
+    font-weight: 700;
+    line-height: 62.54px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+#hero .container .left-block .title span {
+    background: linear-gradient(234.07deg, #AAD9D1 0%, #017373 125.68%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#hero .container .left-block .desc {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+#hero .container .left-block #get-email {
+    display: flex;
+    align-items: center;
+}
+
+#hero .container .left-block #get-email #email {
+    width: 434px;
+    height: 68px;
+    padding: 6px 6px 6px 24px;
+    border-radius: 8px;
+    border: 1px solid #048C80;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #333333;;
+}
+
+#hero .container .left-block #get-email button {
+    width: 135px;
+    height: 56px;
+    border-radius: 8px;
+    border: none; 
+    background: linear-gradient(234.07deg, #AAD9D1 0%, #017373 125.68%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transform: translateX(calc(-100% - 5px));
+}
+
+#hero .container .left-block #get-email button p {
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; 
+}

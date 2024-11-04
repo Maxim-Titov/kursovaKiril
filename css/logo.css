@@ -1,0 +1,9 @@
+#logos {
+    width: 100%;
+    margin: 50px 0;
+}
+
+#logos marquee .container {
+    display: flex;
+    justify-content: space-between;
+}

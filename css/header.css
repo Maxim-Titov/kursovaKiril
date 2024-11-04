@@ -1,0 +1,74 @@
+header {
+    border-bottom: 0.5px solid #048C80;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    width: 1320px;
+    height: 104px;
+}
+
+header .container .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .container .logo svg {
+    background: linear-gradient(234.07deg, #AAD9D1 0%, #017373 125.68%);
+    padding: 5px;
+    border-radius: 8px;
+    width: 35px;
+    height: 35px;
+}
+
+header .container .logo .title {
+    font-weight: bold;
+    font-size: 19px;
+    padding-left: 10px;
+}
+
+header .container .menu nav ul {
+    display: flex;
+}
+
+header .container .menu nav ul li {
+    list-style: none;
+    padding-left: 0;
+    margin-right: 40px;
+}
+
+header .container .menu nav ul li:last-child {
+    margin-right: 0;
+}
+
+header .container .menu nav ul li a {
+    color: #EFECE6;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    
+}
+
+header .container .get-started #get-started-form button {
+    background: linear-gradient(234.07deg, #AAD9D1 0%, #017373 125.68%);
+    width: 167px;
+    height: 56px;
+    position: relative;
+    border-radius: 8px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+header .container .get-started #get-started-form button p {
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
