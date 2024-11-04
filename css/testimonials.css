@@ -1,9 +1,14 @@
-#testimonials .container {
+.testimonials {
+    margin-top: 75px;
+    margin-bottom: 100px;
+}
+
+.testimonials .container {
     width: 471.5px;
     margin: 0 auto;
 }
 
-#testimonials .container .comment {
+.testimonials .container .comment {
     font-family: DM Sans;
     font-size: 24px;
     font-weight: 700;
@@ -13,12 +18,12 @@
     margin-top: 0;
 }
 
-#testimonials .container .writer {
+.testimonials .container .writer {
     display: flex;
     justify-content: center;
 }
 
-#testimonials .container .writer .author {
+.testimonials .container .writer .author {
     font-family: DM Sans;
     font-size: 16px;
     font-weight: 400;
@@ -26,7 +31,7 @@
     margin-right: 30px;
 }
 
-#testimonials .container .writer .role {
+.testimonials .container .writer .role {
     font-family: DM Sans;
     font-size: 16px;
     font-weight: 400;

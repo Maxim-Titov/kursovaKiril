@@ -1,0 +1,106 @@
+#feature .container {
+    margin: 0 auto;
+}
+
+#feature .container .title {
+    text-align: center;
+}
+
+#feature .container .title h1 {
+    margin-bottom: 0;
+}
+
+#feature .container .title h1 span {
+    font-family: DM Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    background: linear-gradient(234.07deg, #AAD9D1 0%, #017373 125.68%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+#feature .container .title .sub-title {
+    width: 410px;
+    margin: 0 auto;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #BABABA;
+}
+
+#feature .container .content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 0.5fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+#feature .container .content {
+    margin-top: 100px;
+}
+
+#feature .container .content .cross-platform,
+#feature .container .content .customizable,
+#feature .container .content .secure-cloud,
+#feature .container .content .collaboration,
+#feature .container .content .ai-powered,
+#feature .container .content .integration {
+    padding: 30px;
+    border: 0.5px solid #048C80;
+    border-radius: 12px;
+    box-shadow: 0px 1px 2px 0px #23272E14;
+}
+
+#feature .container .content .cross-platform {
+    grid-area: 1 / 1 / 1 / 3;
+}
+
+#feature .container .content .customizable {
+    grid-area: 1 / 3 / 1 / 5;
+}
+
+#feature .container .content .secure-cloud {
+    grid-area: 2 / 1 / 4 / 1;
+}
+
+#feature .container .content .collaboration {
+    grid-area: 2 / 2 / 4 / 2;
+}
+
+#feature .container .content .ai-powered {
+    grid-area: 2 / 3 / 4 / 3;
+}
+
+#feature .container .content .integration {
+    grid-area: 2 / 4 / 4 / 4;
+}
+
+#feature .container .content .cross-platform .title,
+#feature .container .content .customizable .title,
+#feature .container .content .secure-cloud .title,
+#feature .container .content .collaboration .title,
+#feature .container .content .ai-powered .title,
+#feature .container .content .integration .title {
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;    
+}
+
+#feature .container .content .cross-platform .text,
+#feature .container .content .customizable .text,
+#feature .container .content .secure-cloud .text,
+#feature .container .content .collaboration .text,
+#feature .container .content .ai-powered .text,
+#feature .container .content .integration .text {
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #BABABA;
+}
