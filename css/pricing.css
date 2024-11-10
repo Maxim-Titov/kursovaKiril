@@ -1,0 +1,190 @@
+#pricing .container{
+    text-align: center;
+    max-width: 800px; 
+    margin: auto; 
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+#pricing .container h1 span {
+    font-family: DM Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    background: linear-gradient(234.07deg, #AAD9D1 0%, #017373 125.68%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+.toggle-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 1em;
+    color: #ffffff;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 26px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 50px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 4px;
+    bottom: 4px;
+    background-color: #ffffff;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #66ded8;
+}
+
+input:checked + .slider:before {
+    transform: translateX(24px);
+}
+
+.discount {
+    background-color: #66ded8;
+    color: #1b1b1b;
+    padding: 3px 6px;
+    border-radius: 10px;
+    font-size: 0.8em;
+    margin-left: 5px;
+}
+.pricing-plans {  
+    display: flex; /* Використовуємо флекс для колонок */  
+    justify-content: space-between; /* Проміжки між колонками */  
+    gap: 32px; /* Проміжок між колонками */  
+}  
+
+.plan {  
+    background-color: #2a2a2a; /* Темніший фон для планів */  
+    border: 2px solid #66ded8; /* Зелене обрамлення */  
+    border-radius: 10px; /* Заокруглення куточків */  
+    padding: 40px 32px; /* Внутрішні відступи */  
+    flex: 1; /* Гнучке розташування колонок */  
+    width: 357.33px; /* Максимальна ширина колонок */  
+    height: auto; /* Автоматична висота */  
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Тінь */  
+}  
+
+.individual-plan {  
+    background-color: #F7F7F7; /* Білий фон для індивідуального плану */  
+    color: #1a1a1a; /* Темний текст */  
+    border: 2px solid #048C80; /* Зелене обрамлення */  
+    border-radius: 10px; /* Заокруглення куточків */  
+    padding: 40px 32px; /* Внутрішні відступи */  
+    flex: 1; /* Гнучке розташування колонок */  
+    width: 357.33px; /* Максимальна ширина колонок */  
+    height: auto; /* Автоматична висота */  
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Тінь */  
+}  
+
+.team-plan {  
+    background-color: #000; /* Чорний фон для командного плану */  
+    color: #ffffff; /* Білий текст */  
+    border: 2px solid #048C80; /* Зелене обрамлення */  
+    border-radius: 10px; /* Заокруглення куточків */  
+    padding: 40px 32px; /* Внутрішні відступи */  
+    flex: 1; /* Гнучке розташування колонок */  
+    width: 357.33px; /* Максимальна ширина колонок */  
+    height: auto; /* Автоматична висота */  
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Тінь */  
+}  
+
+.enterprise-plan {  
+    background-color: #F7F7F7; /* Білий фон для корпоративного плану */  
+    color: #1a1a1a; /* Темний текст */ 
+    border: 2px solid #048C80; /* Зелене обрамлення */  
+    border-radius: 10px; /* Заокруглення куточків */  
+    padding: 10px 32px; /* Внутрішні відступи */  
+    flex: 1; /* Гнучке розташування колонок */ 
+    width: 357.33px; /* Максимальна ширина колонок */  
+    height: 437px; /* Автоматична висота */  
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Тінь */
+     
+}  
+
+#pricing .container h5 span {
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 57.6px;
+    background: linear-gradient(234.07deg, #AAD9D1 0%, #017373 125.68%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+.plan h5 {  
+    margin: 10px 0; /* Відступи для заголовка */  
+}  
+
+.pricing-plans p {  
+    font-size: 24px; /* Розмір шрифту для ціни */  
+    font-weight: bold; /* Жирне шрифту */  
+    margin: 10px 0; /* Відступи для ціни */  
+}  
+
+.pricing-plans ul {  
+    list-style-type: none; /* Сховати маркування */  
+    padding: 0; /* Сховати відступи */  
+    margin: 20px 0; /* Відступи для списку */  
+}  
+
+.pricing-plans li {  
+    margin: 5px 0; /* Відступи для рядків списку */  
+    font-size: 16px;
+    text-align: left; /* Вирівнювання тексту по лівому краю */  
+    padding-left: 10px; /* Відступ */ 
+}  
+#pricing .container .pricing-plans .team-plan button{
+    border-radius: 8px;
+    border: none; 
+    background: linear-gradient(234.07deg, #AAD9D1 0%, #017373 125.68%);
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+button {  
+    background-color: #EFECE6; /* Колір кнопки */ 
+    border-color: #66ded8; 
+    color: rgb(0, 0, 0); /* Колір тексту кнопки */  
+    border: none; /* Сховати рамку */  
+    padding: 10px 20px; /* Внутрішні відступи кнопки */  
+    border-radius: 5px; /* Заокруглені кути */  
+    cursor: pointer; /* Курсор при наведенні */  
+    transition: background-color 0.3s; /* Анімація кольору */  
+}  
+button:hover {  
+    background-color:  #ebdbbb; /* Колір кнопки при наведенні */  
+}  

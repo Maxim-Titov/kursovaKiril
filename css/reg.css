@@ -1,0 +1,93 @@
+.sig-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: transparent;
+    border: none;
+    color: #080808;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+  /* Стили для всплывающего окна и формы */
+  .popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+  
+  .popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid #048C80;
+    width: 300px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Стили для кнопки закрытия */
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  /* Остальные стили, включая email-input */
+ 
+  
+  .gmail-input input[type="email"] {
+    background-color: transparent;
+    border: none;
+    color: #111111;
+    font-size: 1rem;
+    flex: 1;
+    outline: none;
+  }
+  
+  
+  form label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  form input .sig-button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #048C80;
+    border-radius: 3px;
+    background-color: #333;
+    color: white;
+  }
+  
+  form button .sig-button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #048C80;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  form button:hover .sig-button{
+    background-color: #03685f;
+  }
+ #popup .popup-content button{
+    background: linear-gradient(234.07deg, #AAD9D1 0%, #017373 125.68%);
+    margin-top: 15px;
+  }
